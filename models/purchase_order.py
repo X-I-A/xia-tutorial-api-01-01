@@ -2,7 +2,7 @@ from xia_fields import StringField
 from xia_engine import Document, EmbeddedDocument, EmbeddedDocumentField
 
 
-class Address(Document):
+class Address(EmbeddedDocument):
     address: str = StringField(description="Address", sample="M. Name \n 888, Road Name")
     city: str = StringField(description="City", sample="Paris")
     post_code: str = StringField(description="Post code", sample="75016")
