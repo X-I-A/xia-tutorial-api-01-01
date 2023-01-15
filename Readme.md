@@ -12,6 +12,20 @@ Each tutorial is ended by a series number like 01-02-03. The longer the series i
 It will be better to finish basic tutorial before going through advanced ones. Each tutorial has example code. 
 Installation instruction could be found at tutorial/install.md.
 
+## Prerequisites
+
+Already finish the reading of [Tutorial API 01](https://github.com/X-I-A/xia-tutorial-api-01)
+
+## Start with example
+
+Please clone and deployed the example code (see [installation guide](tutorial/install.md) for instruction).
+
+Or just visiting the already deployed [online version](https://xia-tutorial-api-01-01-srspyyjtqa-ew.a.run.app/order)
+
+Only [models/purchase_order.py](models/purchase_order.py) has been modified to get the new data model work.
+
+
+
 ## Data model
 ### Defining documents
 

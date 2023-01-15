@@ -29,7 +29,7 @@ class PurchaseOrder(Document):
                                     default="new",
                                     choices=["new", "paid", "delivered"])
     items: list = ListField(EmbeddedDocumentField(document_type=PurchaseOrderItem))
-    delivery_address = EmbeddedDocumentField(document_type=Address)
+    delivery_address = EmbeddedDocumentField(document_type=Address, description="Delivery Address")
 
     def set_paid(self, _acl=None):
         self.update(order_status="paid")
