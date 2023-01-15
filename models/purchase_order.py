@@ -20,7 +20,7 @@ class PurchaseOrder(Document):
                                     choices=["new", "paid", "delivered"])
     delivery_address = EmbeddedDocumentField(document_type=Address)
 
-    def set_paid(self):
+    def set_paid(self, _acl=None):
         self.update(order_status="paid")
         self.reload()
         if self.order_status == "paid":
