@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../../xia-universe/xia-compiler-jsoneditor/.idea/xia-compiler-jsoneditor.iml" filepath="$PROJECT_DIR$/../../xia-universe/xia-compiler-jsoneditor/.idea/xia-compiler-jsoneditor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../xia-universe/xia-editor-flask/.idea/xia-editor-flask.iml" filepath="$PROJECT_DIR$/../../xia-universe/xia-editor-flask/.idea/xia-editor-flask.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/xia-tutorial-api-01-01.iml" filepath="$PROJECT_DIR$/.idea/xia-tutorial-api-01-01.iml" />
     </modules>
   </component>

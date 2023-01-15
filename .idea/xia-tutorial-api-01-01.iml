@@ -4,5 +4,7 @@
     <content url="file://$MODULE_DIR$" />
     <orderEntry type="jdk" jdkName="Python 3.10 (xia02)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="xia-editor-flask" />
+    <orderEntry type="module" module-name="xia-compiler-jsoneditor" />
   </component>
 </module>
