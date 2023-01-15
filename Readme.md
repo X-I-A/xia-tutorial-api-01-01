@@ -58,7 +58,7 @@ A data model not only describes data but also performs the activities of the dat
 
 Action is a method which meets two requirements:
 * Defined in `_actions` class attributes of Document. `out` means the output type. 
-If the `out` object is a subclass of `XiaFileMsg` of `xia-api` package, the output of API will be a file to be downloaded
+    * Note: If the `out` object is a subclass of `XiaFileMsg` of `xia-api` package, the output of API will be a file to be downloaded
 ```
 class PurchaseOrder(Document):
     _actions = {"set_paid": {"out": XiaActionResult}}
@@ -77,6 +77,9 @@ An embedded document holds a subset information of a document. There are three w
 
 If you don't have time, a simplified rule is that when subset information cannot exist alone, `EmbeddedDocument` is the right way to go.
 
-It is also possible to define action on embedded document level. It is not yet supported by editor, so you should call the url by using api endpoint.
+* Note: It is also possible to define action on embedded document level. It is not yet supported by editor, so you should call the url by using api endpoint.
 
+### Next Step: Defining Reference and External Document
+
+* Tutorial 01-02: Advanced Data Models (Reference / ExternalDocument)
 
