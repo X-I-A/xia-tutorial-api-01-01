@@ -71,9 +71,10 @@ def set_paid(self, _acl=None):
 
 ### Defining embedded documents
 
-An embedded document holds a subset information of a document. There are three ways to holds a subset information of a document:
-`EmbeddedDocument`, `Reference`, `ExternalDocument`. To understand the design, please read the 
-* Tutorial API 00-01: Descriptive Data Model
+An embedded document holds a subset information of a document. There are two ways to holds a subset information of a document:
+`EmbeddedDocument`, `ExternalDocument`. To understand the design, please read the
+
+* Tutorial API 00-01: Descriptive Data Model Design
 
 If you don't have time, a simplified rule is that when subset information cannot exist alone, `EmbeddedDocument` is the right way to go.
 
