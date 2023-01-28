@@ -74,7 +74,7 @@ def set_paid(self, _acl=None):
 An embedded document holds a subset information of a document. There are two ways to holds a subset information of a document:
 `EmbeddedDocument`, `ExternalDocument`. To understand the design, please read the
 
-* Tutorial API 00-01: Descriptive Data Model Design
+* [Tutorial API 00-01](https://github.com/X-I-A/xia-tutorial-api-00-01): Descriptive Data Model Design
 
 If you don't have time, a simplified rule is that when subset information cannot exist alone, `EmbeddedDocument` is the right way to go.
 
