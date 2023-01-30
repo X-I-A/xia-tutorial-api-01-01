@@ -82,5 +82,5 @@ If you don't have time, a simplified rule is that when subset information cannot
 
 ### Next Step: Defining Reference and External Document
 
-* Tutorial 01-02: Advanced Data Models (Reference / ExternalDocument)
+* [Tutorial API 01-02](https://github.com/X-I-A/xia-tutorial-api-01-02): Advanced Data Models (Reference / ExternalDocument)
 
