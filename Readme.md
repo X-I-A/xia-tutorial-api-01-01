@@ -18,7 +18,7 @@ Already finish the reading of [Tutorial API 01](https://github.com/X-I-A/xia-tut
 
 ## Start with example
 
-Please clone and deployed the example code (see [installation guide](tutorial/install.md) for instruction).
+Please clone and deploy the example code (see [installation guide](tutorial/install.md) for instruction).
 
 Or just visiting the already deployed [online version](https://xia-tutorial-api-01-01-srspyyjtqa-ew.a.run.app/order)
 
